@@ -64,7 +64,7 @@ namespace Meetup.Pattern_Matching
 
             foreach (var palestra in palestras)
             {
-                //if ((palestra.Palestrante == "Davi Holanda" || palestra.Palestrante == "Gleryston Matos") palestra.Titulo.Length > 0)
+                //if ((palestra.Palestrante == "Davi Holanda" || palestra.Palestrante == "Gleryston Matos") && palestra.Titulo.Length > 0)
                 if (palestra is { Palestrante: "Davi Holanda" or "Gleryston Matos", Titulo: { Length: > 0 } titulo })
                     Console.WriteLine($"Esse ai se preocupa com qualidade viu!!! Saca só a palestra top: {titulo}");
             }
@@ -73,7 +73,7 @@ namespace Meetup.Pattern_Matching
         public static void Seis()
         {
             Palestra palestra = new("Resiliencia com Polly", "Davi Holanda");
-            var informações = (true, palestra.Titulo, palestra.Palestrante);
+            var informações = (false, palestra.Titulo, palestra.Palestrante);
 
             var mensagem = informações switch
             {
@@ -90,6 +90,7 @@ namespace Meetup.Pattern_Matching
                 palestra => palestra.Titulo == tituloPalestra,
                 palestra => "C# como você nunca viu" == tituloPalestra,
             };
+            //"palestra => (palestra.Titulo == value(Meetup.Pattern_Matching.PatternMatching+<>c__DisplayClass6_0).tituloPalestra)"
 
             foreach (var filtro in filtros)
             {

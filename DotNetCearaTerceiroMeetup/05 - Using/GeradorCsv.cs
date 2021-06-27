@@ -7,20 +7,21 @@ namespace Meetup.Using
     {
         public static void GerarCsv()
         {
-            using (var streamWriter = new StreamWriter(@"C:\temp\todo.txt"))
-            {
-                streamWriter.WriteLine("1");
-                streamWriter.WriteLine("2");
-                streamWriter.WriteLine("3");
-                streamWriter.WriteLine("4");
-            }
+            //var streamWriter = new StreamWriter(@"C:\temp\todo.txt");
+            //using (streamWriter)
+            //{
+            //    streamWriter.WriteLine("1");
+            //    streamWriter.WriteLine("2");
+            //    streamWriter.WriteLine("3");
+            //    streamWriter.WriteLine("4");
+            //}
 
             #region Novo - Sem spoiler
-            //using var streamWriter = new StreamWriter(@"C:\temp\todo.txt");
-            //streamWriter.WriteLine("1");
-            //streamWriter.WriteLine("2");
-            //streamWriter.WriteLine("3");
-            //streamWriter.WriteLine("4"); 
+            using var streamWriter = new StreamWriter(@"C:\temp\todo.txt");
+            streamWriter.WriteLine("1");
+            streamWriter.WriteLine("2");
+            streamWriter.WriteLine("3");
+            streamWriter.WriteLine("4");
 
             using var placebo = new Placebo();
             placebo.MandaUmOi();

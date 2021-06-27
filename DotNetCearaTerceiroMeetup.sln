@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31320.298
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCearaTerceiroMeetup", "DotNetCearaTerceiroMeetup\DotNetCearaTerceiroMeetup.csproj", "{C7485F58-D85A-4478-9991-31CCFF33BF07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCearaTerceiroMeetup", "DotNetCearaTerceiroMeetup\DotNetCearaTerceiroMeetup.csproj", "{C7485F58-D85A-4478-9991-31CCFF33BF07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News", "News\News.csproj", "{64486C43-6187-4D3B-938C-C19509EEF1F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "News", "News\News.csproj", "{64486C43-6187-4D3B-938C-C19509EEF1F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{60DEE4C9-D5C5-497B-AA00-3AF20039C858}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{64486C43-6187-4D3B-938C-C19509EEF1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64486C43-6187-4D3B-938C-C19509EEF1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64486C43-6187-4D3B-938C-C19509EEF1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DEE4C9-D5C5-497B-AA00-3AF20039C858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DEE4C9-D5C5-497B-AA00-3AF20039C858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DEE4C9-D5C5-497B-AA00-3AF20039C858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DEE4C9-D5C5-497B-AA00-3AF20039C858}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
